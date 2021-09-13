@@ -587,6 +587,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/sdm660-common/proprietary/vendor/lib64/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcvirt.so \
     vendor/asus/sdm660-common/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
 
+<<<<<<< HEAD
 # MotoDolby
 PRODUCT_COPY_FILES += \
     vendor/asus/sdm660-common/proprietary/system/etc/permissions/com.motorola.dolby.dolbyui.features.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.dolby.dolbyui.features.xml \
@@ -617,6 +618,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/sdm660-common/proprietary/system/etc/permissions/com.dolby.daxservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.dolby.daxservice.xml \
     vendor/asus/sdm660-common/proprietary/product/lib/libstagefright_soft_ddpdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_ddpdec.so
 
+=======
+>>>>>>> parent of 92e2145... sdm660-common: Import Motorola Dolby blobs from Moto-G Pro
 PRODUCT_PACKAGES += \
     libantradio \
     vendor.qti.hardware.fm@1.0 \
@@ -628,7 +631,4 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
     WfdCommon \
-    vendor.qti.gnss@3.0-service \
-    daxService \
-    MotoDolbyV3 \
-    MotoSignatureApp
+    vendor.qti.gnss@3.0-service
